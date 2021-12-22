@@ -1,0 +1,60 @@
+{
+    "Кольчугино": {
+        "monday": "0",
+        "tuesday": "-1",
+        "wednesday": "-2",
+        "thursday": "-3",
+        "friday": "-4",
+        "saturday": "-19",
+        "sunday": "-23"
+    },
+    "Дубна": {
+        "monday": "1",
+        "tuesday": "1",
+        "wednesday": "-1",
+        "thursday": "-4",
+        "friday": "-17",
+        "saturday": "-22",
+        "sunday": "-21"
+    },
+    "Москва": {
+        "monday": "1",
+        "tuesday": "2",
+        "wednesday": "-1",
+        "thursday": "0",
+        "friday": "-4",
+        "saturday": "-18",
+        "sunday": "-21"
+    },
+    "Абинск": {
+        "monday": "8",
+        "tuesday": "9",
+        "wednesday": "6",
+        "thursday": "8",
+        "friday": "5",
+        "saturday": "5",
+        "sunday": "-1"
+    },
+    "Сочи": {
+        "monday": "15",
+        "tuesday": "11",
+        "wednesday": "10",
+        "thursday": "9",
+        "friday": "10",
+        "saturday": "7",
+        "sunday": "4"
+    },
+    "Рыбинск": {
+        "monday": "-1",
+        "tuesday": "-1",
+        "wednesday": "-1",
+        "thursday": "0",
+        "friday": "1",
+        "saturday": "1",
+        "sunday": "0"
+    }
+}
+
+
+
+

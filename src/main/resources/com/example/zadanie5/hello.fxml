@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml"  fx:controller="com.example.zadanie5.HelloController" prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <TableView fx:id="my" layoutX="0" layoutY="0" prefHeight="170" prefWidth="650"  tableMenuButtonVisible="true">
+            <columns>
+                <TableColumn fx:id="nameTown" prefWidth="100.0" text="Город"/>
+                <TableColumn fx:id="monday" prefWidth="100.0" text="Понедельник"/>
+                <TableColumn fx:id="tuesday" prefWidth="85.0" text="Вторник"/>
+                <TableColumn fx:id="wednesday" prefWidth="80.0" text="Среда"/>
+                <TableColumn fx:id="thursday" prefWidth="80.0" text="Четверг"/>
+                <TableColumn fx:id="friday" prefWidth="80.0" text="Пятница"/>
+                <TableColumn fx:id="saturday" prefWidth="80.0" text="Суббота"/>
+                <TableColumn fx:id="sunday" prefWidth="100.0" text="Воскресенье"/>
+            </columns>
+        </TableView>
+    </children>
+    <Label fx:id="welcomeText"/>
+    <TextField fx:id="top"  layoutY="210.0"/>
+    <Button fx:id="bth" onAction="#onHelloButtonClick" layoutY="210.0" layoutX="120" text="Find"/>
+</AnchorPane>

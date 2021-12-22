@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.zadanie5.HelloController">
+    <children>
+        <TableView fx:id="mytableTableView" layoutX="0" layoutY="0" prefHeight="400" prefWidth="700" tableMenuButtonVisible="true">
+            <columns>
+                <TableColumn fx:id="townName" prefWidth="80.0" text="Город" />
+                <TableColumn fx:id="monday" prefWidth="100.0" text="Понедельник" />
+                <TableColumn fx:id="tuesday" prefWidth="85.0" text="Вторник" />
+                <TableColumn fx:id="wednesday" prefWidth="80.0" text="Среда" />
+                <TableColumn fx:id="thursday" prefWidth="80.0" text="Четверг" />
+                <TableColumn fx:id="friday" prefWidth="80.0" text="Пятница" />
+                <TableColumn fx:id="saturday" prefWidth="80.0" text="Суббота" />
+                <TableColumn fx:id="sunday" prefWidth="100.0" text="Воскресенье" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
