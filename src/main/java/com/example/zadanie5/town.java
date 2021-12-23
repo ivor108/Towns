@@ -4,7 +4,9 @@ import javafx.beans.property.SimpleStringProperty;
 
 import java.util.List;
 
+//Класс Город
 public class town {
+    //Создаём поля специального типа. Этот тип как обычная строка
     private SimpleStringProperty nameTown;
     private SimpleStringProperty monday;
     private SimpleStringProperty tuesday;
@@ -14,6 +16,7 @@ public class town {
     private SimpleStringProperty saturday;
     private SimpleStringProperty sunday;
 
+    //Конструктор, просто кладём переданные значение в соответсвующие поля
     public  town(String name, String d1, String d2, String d3, String d4, String d5, String d6,String d7)
     {
         nameTown = new SimpleStringProperty(name);
@@ -25,6 +28,7 @@ public class town {
         saturday = new SimpleStringProperty(d6);
         sunday = new SimpleStringProperty(d7);
     }
+    //Геттеры и сетеры. Т.к. поля private нужно как то к ним обращаться. Для этого и реализуются такие методы
     public String getNameTown() {
         return this.nameTown.get();
     }

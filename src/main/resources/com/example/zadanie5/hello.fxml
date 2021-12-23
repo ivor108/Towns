@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-
-<AnchorPane xmlns="http://javafx.com/javafx" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml"  fx:controller="com.example.zadanie5.HelloController" prefHeight="400.0" prefWidth="600.0">
+<?import javafx.scene.layout.AnchorPane?>
+<!--Файл для отображения графики-->
+<AnchorPane xmlns="http://javafx.com/javafx" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.zadanie5.HelloController" prefHeight="400.0" prefWidth="600.0">
     <children>
+<!--        Табличка-->
         <TableView fx:id="my" layoutX="0" layoutY="0" prefHeight="170" prefWidth="650"  tableMenuButtonVisible="true">
+<!--            Список столбцов-->
             <columns>
                 <TableColumn fx:id="nameTown" prefWidth="100.0" text="Город"/>
                 <TableColumn fx:id="monday" prefWidth="100.0" text="Понедельник"/>
@@ -21,7 +20,10 @@
             </columns>
         </TableView>
     </children>
+<!--    Лейбл с приветсвенным текстом-->
     <Label fx:id="welcomeText"/>
+<!--    Поле для ввода города-->
     <TextField fx:id="top"  layoutY="210.0"/>
+<!--    Кнопка-->
     <Button fx:id="bth" onAction="#onHelloButtonClick" layoutY="210.0" layoutX="120" text="Find"/>
 </AnchorPane>
